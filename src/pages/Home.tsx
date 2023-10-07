@@ -10,7 +10,6 @@ const Home = () => {
   return (
     <>
       <div className={styles.title}>Home page</div>
-
       <ul className={styles.list}>
         {
           list.map((i) => (<li key={i.id}>{i.name}</li>))
