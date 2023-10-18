@@ -1,17 +1,30 @@
-.title {
-  height: 50px;
-  background: blanchedalmond;
-  margin: 40px auto;
-  padding: 10px;
-}
+@media screen and (min-width: 768px) {
+  .top-section {
+    display: flex;
+    justify-content: space-between;
 
-.list {
-  padding: 20px;
-  list-style: none;
-
-  li {
-    &:before {
-      content: '- ';
+    .dmytro-img {
+      height: 300px;
+      width: auto;
     }
   }
+}
+
+.chips {
+  & > * {
+    margin-right: 4px;
+  }
+}
+
+.typo {
+  background: pink;
+}
+
+.img-container {
+  display: flex;
+  justify-content: center;
+}
+
+.dmytro-img {
+  width: 80%;
 }

@@ -6,11 +6,13 @@ import Home from './pages/Home';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import Blank from './pages/Blank';
 import Root from './pages/Root';
+import Error from './pages/Error';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <Root />,
+    errorElement: <Error />,
     children: [
       {
         path: '/',
