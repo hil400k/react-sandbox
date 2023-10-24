@@ -2,6 +2,7 @@ import styles from './Home.module.scss';
 
 import Dmytro from '../assets/dmytro.jpg';
 import Chip from '../components/Chip';
+import { Experience } from '../components/Experience';
 const Home = () => {
 
   return (
@@ -25,6 +26,7 @@ const Home = () => {
         <div className={styles.right}>
           <div className={styles['img-container']}>
             <img className={styles['dmytro-img']} src={Dmytro} alt="" />
+            <Experience />
           </div>
         </div>
       </div>
